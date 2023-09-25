@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test KW1",
+      "setup": "g++ -o a.out ./Lab/Lab10-String.cpp",
+      "run": "./a.out",
+      "input": "radar",
+      "output": "Pass.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test KW2",
+      "setup": "g++ -o a.out ./Lab/Lab10-String.cpp",
+      "run": "./a.out",
+      "input": "hello",
+      "output": "Not Pass.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test KW3",
+      "setup": "g++ -o a.out ./Lab/Lab10-String.cpp",
+      "run": "./a.out",
+      "input": "Radar",
+      "output": "Pass.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test KW4",
+      "setup": "g++ -o a.out ./Lab/Lab10-String.cpp",
+      "run": "./a.out",
+      "input": "Madam",
+      "output": "Pass.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
